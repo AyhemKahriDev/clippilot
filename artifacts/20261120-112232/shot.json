@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "url": "http://127.0.0.1:8801/",
+  "finalUrl": "http://127.0.0.1:8801/",
+  "title": "ClipPilot",
+  "viewport": {
+    "width": 1408,
+    "height": 775,
+    "dpr": 1
+  },
+  "frozen": true,
+  "targets": [],
+  "press": null,
+  "auth": null,
+  "before": null,
+  "after": {
+    "file": "/home/ayhem/harness/projects/clippilot/artifacts/20261120-112232/after.png",
+    "width": 1408,
+    "height": 775,
+    "bytes": 107126,
+    "stdev": 32.21359466495346,
+    "blank": false,
+    "sha256": "00f80393081912d6b66dc6bdfd480db06af72a766bac3d92186f541b6e5be34a"
+  },
+  "interaction": null,
+  "window": {
+    "ok": true,
+    "out": "/home/ayhem/harness/projects/clippilot/artifacts/20261120-112232/window.png",
+    "bytes": 134395,
+    "window": "harness-proof",
+    "id": "{1d1fa6a5-bd64-4a84-b994-8eb739e4a8dd}",
+    "width": 1440,
+    "height": 960,
+    "ms": 307
+  },
+  "urlAfterCapture": "http://127.0.0.1:8801/",
+  "errors": {
+    "console": [],
+    "pageErrors": [],
+    "failedRequests": []
+  },
+  "durations": {
+    "navigateMs": 38,
+    "actionMs": 0,
+    "afterMs": 197,
+    "totalMs": 588
+  },
+  "cacheDisabled": true,
+  "actions": [],
+  "durationMs": 588
+}

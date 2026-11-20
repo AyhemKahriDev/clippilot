@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "project": "clippilot",
+  "target": {
+    "kind": "web",
+    "url": "http://127.0.0.1:8801/",
+    "title": "ClipPilot"
+  },
+  "session": {
+    "cwd": "/home/ayhem/harness",
+    "display": {
+      "wayland": "wayland-1",
+      "x11": ":0"
+    },
+    "locked": false,
+    "visible": true,
+    "name": "proof",
+    "unit": "harness-proof.service",
+    "pid": 7373,
+    "cdp": true,
+    "sameSession": true,
+    "windowClass": "harness-proof",
+    "viewport": {
+      "width": 1408,
+      "height": 775,
+      "dpr": 1
+    },
+    "requestedUrl": "http://127.0.0.1:8801/",
+    "finalUrl": "http://127.0.0.1:8801/",
+    "lockHeld": true
+  },
+  "runner": {
+    "unit": "harness-proof.service",
+    "pid": 7373,
+    "stop": "/home/ayhem/harness/scripts/run.sh stop proof"
+  },
+  "captures": [
+    {
+      "file": "/home/ayhem/harness/projects/clippilot/artifacts/20261120-112232/after.png",
+      "bytes": 107126,
+      "width": 1408,
+      "height": 775,
+      "stdev": 29.58,
+      "blank": false,
+      "sha256": "00f80393081912d6b66dc6bdfd480db06af72a766bac3d92186f541b6e5be34a",
+      "method": "cdp"
+    },
+    {
+      "file": "/home/ayhem/harness/projects/clippilot/artifacts/20261120-112232/window.png",
+      "bytes": 134395,
+      "width": 1440,
+      "height": 960,
+      "stdev": 93.58,
+      "blank": false,
+      "sha256": "4706858b689bd37a52d37304329288b6ad95fb449a6676202d29e286ce449c52",
+      "method": "kwin"
+    }
+  ],
+  "interaction": null,
+  "checks": [
+    {
+      "id": "preflight",
+      "ok": true,
+      "detail": "display, lock, browser, bus"
+    },
+    {
+      "id": "url-reachable",
+      "ok": true,
+      "detail": "http://127.0.0.1:8801/ (HTTP 200)"
+    },
+    {
+      "id": "session-cdp",
+      "ok": true,
+      "detail": "proof :41301 pid 7373 (harness-proof.service)"
+    },
+    {
+      "id": "window-visible",
+      "ok": true,
+      "detail": "harness-proof window of session proof"
+    },
+    {
+      "id": "window-focused",
+      "ok": true,
+      "detail": "harness-proof raised before interaction"
+    },
+    {
+      "id": "after-non-blank",
+      "ok": true,
+      "detail": "after.png 1408x775 stdev=29.58"
+    },
+    {
+      "id": "window-non-blank",
+      "ok": true,
+      "detail": "window.png 1440x960 stdev=93.58"
+    },
+    {
+      "id": "cache-bypass",
+      "ok": true,
+      "detail": "HTTP cache disabled for the proof page"
+    },
+    {
+      "id": "page-url",
+      "ok": true,
+      "detail": "http://127.0.0.1:8801/"
+    },
+    {
+      "id": "window-url",
+      "ok": true,
+      "detail": "page=http://127.0.0.1:8801/ after-capture=http://127.0.0.1:8801/"
+    }
+  ],
+  "notes": "",
+  "startedAt": "2026-11-20T11:22:32+01:00",
+  "auth": {
+    "used": false,
+    "dshAuth": false
+  },
+  "timings": {
+    "navigateMs": 38,
+    "actionMs": 0,
+    "afterMs": 197,
+    "totalMs": 1567
+  },
+  "result": "pass",
+  "artifacts": "/home/ayhem/harness/projects/clippilot/artifacts/20261120-112232",
+  "finishedAt": "2026-11-20T11:22:33+01:00"
+}
