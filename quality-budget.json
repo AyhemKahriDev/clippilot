@@ -4,7 +4,10 @@
   "bytes": 30000,
   "requests": 4,
   "lcpMs": 800,
-  "cls": 0.02
+  "cls": 0.02,
+  "a11yViolations": 0,
+  "a11ySerious": 0
  },
- "why": "A regression gate, not a beauty contest: each limit is the measured value of the current build plus ~15% headroom. Lowering one is a deliberate decision that needs a proof; raising one to make a build pass is the failure this file exists to stop."
+ "why": "A regression gate, not a beauty contest: each limit is the measured value of the current build plus ~15% headroom. Lowering one is a deliberate decision that needs a proof; raising one to make a build pass is the failure this file exists to stop.",
+ "targetA11y": "0 violations, 0 serious \u2014 the budget only stops a regression meanwhile"
 }
