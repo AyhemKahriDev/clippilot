@@ -3,7 +3,9 @@
   "bytes": 4077,
   "requests": 1,
   "lcpMs": 36,
-  "cls": 0
+  "cls": 0,
+  "a11yViolations": 0,
+  "a11ySerious": 0
  },
- "updatedAt": "2026-11-19T18:05:33+0100"
+ "updatedAt": "2026-11-20T10:54:34+0100"
 }
