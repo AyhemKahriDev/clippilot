@@ -9,5 +9,5 @@
   "a11ySerious": 0
  },
  "why": "A regression gate, not a beauty contest: each limit is the measured value of the current build plus ~15% headroom. Lowering one is a deliberate decision that needs a proof; raising one to make a build pass is the failure this file exists to stop.",
- "targetA11y": "0 violations, 0 serious \u2014 the budget only stops a regression meanwhile"
+ "targetA11y": "met \u2014 0 violations, 0 serious (axe WCAG 2.0/2.1 A+AA), measured 2026-11-20"
 }
